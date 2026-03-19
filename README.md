@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Softcrayons EdTech Platform
 
-## Getting Started
+Welcome to the **Softcrayons** repository! This is a modern, responsive, and fully-featured front-end landing page for an educational and technology training platform. It showcases training programs, student success stories, industry-ready curriculums, and more.
 
-First, run the development server:
+## 🚀 Tech Stack
 
+- **Framework**: [Next.js](https://nextjs.org/) (App Router & Turbopack)
+- **Library**: [React](https://react.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+
+## ✨ Key Features
+
+- **Fully Responsive**: Optimized for mobile, tablet, and desktop viewing.
+- **Interactive UI**: Custom-built carousels, hover effects, and modern styling.
+- **Modular Architecture**: Clean, component-based folder structure for easy maintainability.
+- **Dynamic Portfolios**: Highlighted sections for Top Programs, Placed Students, partner logos, and media presence.
+
+## 🛠️ Installation & Setup
+
+Follow these simple steps to get a local copy of this project up and running on your machine.
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/ShivamKumarJha2004/Softcrayons.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Navigate to the project directory
+```bash
+cd Softcrayons/my-app
+```
+*(Note: adjust the path if necessary depending on where the `my-app` directory resides)*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Install dependencies
+Using `npm`:
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Run the development server
+```bash
+npm run dev
+```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application. The page will automatically hot-reload as you make code edits.
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project relies on modular React components inside the Next.js App Router structure:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `app/` - Contains the main Next.js layout, routing, and `page.tsx`.
+- `component/` - Houses all isolated UI components, such as:
+  - `HeroSection/`
+  - `CurriculumSection/`
+  - `RecentPlacedSection/`
+  - `TestimonialsSection/`
+  - `Navbar/` & `Footer/`
+- `public/` - Contains static assets like images, icons, and placeholder graphics.
 
-## Deploy on Vercel
+## 📝 Available Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `npm run dev` - Starts the Next.js development server.
+- `npm run build` - Builds the application for production deployment.
+- `npm start` - Starts the production server (after running the build).
+- `npm run lint` - Runs ESLint to statically analyze the code for issues.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ShivamKumarJha2004/Softcrayons/issues) or submit a pull request if you want to help improve this project.
+
+## 📄 License
+This project is open-source and available under the MIT License.
